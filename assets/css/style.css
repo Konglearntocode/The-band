@@ -7,15 +7,38 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Common  */
 .clear {
   clear: both;
+}
+
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.col {
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.col-half{
+  width: 50%;
+} 
+
+.col-third {
+  width: calc(100% / 3);
 }
 
 .text-white{
   color: white;
 }
 
+.text-center {
+  text-align: center; !important
+}
+/* Main */
 #main {}
 
 #header {
@@ -167,12 +190,6 @@ html {
   margin-top: 47px;
 }
 
-#content .member-items {
-  float: left;
-  width: calc(100% / 3);
-  text-align: center;
-}
-
 #content .member-name {
   font-size: 15px;
 }
@@ -223,13 +240,8 @@ html {
 }
 /* Places */
 .places-list {
-  margin: 32px -8px 0;
-}
-
-.places-item {
-  float: left;
-  width: calc(100% / 3);
-  padding: 0 8px;
+  margin-top: 32px;
+  margin-bottom: 48px;
 }
 
 .place-img{
